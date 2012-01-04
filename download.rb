@@ -1,6 +1,8 @@
 require 'net/http'
 require "json"
+require "FileUtils"
 
+FileUtils::mkdir_p "blocks"
 
 $hash = "000000000002d01c1fccc21636b607dfd930d31d01c3a62104612a1719011250"
 
