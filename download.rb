@@ -23,6 +23,5 @@ Net::HTTP.start("blockexplorer.com") do |http|
         f.close
         $startblock -= 1
         $hash = next_hash
-        puts $startblock
     end
 end
